@@ -7,8 +7,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git branch: 'master',
-                url: git 'https://github.com/joel-s-das/GFG-32-BATCH-MAVEN.git',
+                git branch: 'master'
+                url: git 'https://github.com/joel-s-das/GFG-32-BATCH-MAVEN.git'
                 credentialsId: 'github-credentials'
             }
         }
