@@ -10,7 +10,7 @@ pipeline {
                 // Checkout your source code from version control
                 //git 'https://github.com/joel-s-das/GFG-32-BATCH-MAVEN.git'
                     git branch: 'master',
-                    url: 'https://github.com/joel-s-das/GFG-32-BATCH-MAVEN.git',
+                    url: 'https://github.com/joels-s-das/GFG-32-BATCH-MAVEN.git',
                     credentialsId: 'github-credentials'
             }
         }
